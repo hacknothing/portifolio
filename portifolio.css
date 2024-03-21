@@ -1,0 +1,17 @@
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block;
+    padding: 25px;
+}
+
+li:hover {
+    color: aqua;
+}
