@@ -17,31 +17,33 @@ function displaySkills(op){
         default:
             alert("hello")
     }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if(skCount%2==0)
-    {
-        document.getElementById("skills").style.display="flex";
+var num=2
+function dsp() {
+    
+    if(num%2==0){
+        document.getElementById("navmenu").style.display="flex";
     }
     else{
-        document.getElementById("skills").style.display="none";
+        document.getElementById("navmenu").style.display="none";
     }
-    skCount++;
+    num++;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
