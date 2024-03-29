@@ -9,53 +9,173 @@
     <script src="portifolio.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="navlogo">
-           <p> MyPortfolio </p>
-
-        </div>
-        <div class="details">
-            <div><p>Home</p></div>
-            <div><p>Services</p></div>
-            <div><p>About</p></div>
-            <div><p>Resume</p></div>
-            <div><p>Contact</p></div>
-        </div>
-        <div class="social">
-            <div>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div>
-                <i class="fa-regular fa-envelope"></i>
+   <div class="header"></div>
+    <div class="main">
+        <nav>
+            <div class="navbar">
+                <a href="" class="links"><i class="fa-solid fa-house"><span>Home</span></i> </a>
+                <a href=""><i class="fa-regular fa-address-card"><span>About</span></i></a>
+                <a href=""><i class="fa-solid fa-diagram-project"><span>Projects</span></i></a>
+                <a href=""><i class="fa-regular fa-address-book"><span>Contact</span></i></a>
             </div>
 
-        </div>
-    </nav>
+        </nav>
+        <div class="container">
+            <!-- <section class="scroll">
+                <div class="scroll">
+                    <div class="scroll-info">
+                     
+                        <div class="hide">
+                            
+                           
+                           
+                            <h3>HTML</h3> 
+                            <h3>CSS</h3>
+                            <h3>JS</h3>                        
+                            <h3>C</h3> 
+                           <h3>JAVA</h3>
+                          
+    
+                          
+                        </div>
+                        <div class="scrool_button">
+                            <button onclick="side()"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                
+                </div>
+            </section> -->
 
-    <section>
-       <div class="container-1">
-        <div class="paragraph">
-            <h3>Myself,<span>Narendra Mongam</span></h3>
-            <h3>I can work with<span>Java,C,HTML,CSS,JAVASCRIPT</span> </h3>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in deleniti nihil fugiat facere. Officia unde aliquam sed asperiores laudantium quod labore dolorem est sapiente, consequatur ea provident neque obcaecati?</p>
-        </div>
-        <div class="photo">
-            <!-- <img src="logo.png" alt=""> -->
-        </div>
-       </div>
-    </section>
+            <section>
+                <div class="myinfo">
+                    <div class="matter">
+                       <button>I</button>
+                       <button>a</button>
+                       <button>m</button>
 
-    <section class="works">
+                       <span>
+                        <button class="name">N</button>
+                    </span>
+                       <button>a</button>
+                       <button>r</button>
+                       <button>e</button>
+                       <button>n</button>
+                       <button>d</button>
+                       <button>r</button>
+                       <button>a</button>
+                      
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel esse aut ratione, illo saepe velit provident sint delectus in perspiciatis eligendi, harum nulla, quaerat ea quo sit ipsum labore corporis?</p>
 
-        <div class="workscontainer">
-            <div class="work1"></div>
-            <div class="work2"></div>
-            <div class="work3"></div>
-            <div class="work4"></div>
-            <div class="work5"></div>
-            <div class="work6"></div>
+
+                    </div>
+                    <div class="image">
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h1 style="text-align: center;">MySkills</h1>
+                <div class="contain">
+                    
+                    <div class="skill">
+                        <div class="s1">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="s1">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="s1">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="s1">
+                            <i class="fa-solid fa-c"></i>
+                        </div>
+                        <div class="s1">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
-    </section>
+    </div>
+
+    <div class="about">
+        <div class="image2">
+
+        </div>
+        <div class="abouts">
+            <div><h1>About Me</h1></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione error id voluptatibus illo? Vero cumque et, reiciendis repellendus modi consequuntur officia voluptatum iusto, rem quos illo in, qui neque.</p>
+            <br>
+             <div class="exp">
+               <button onclick="displaySkills(1)"><p class="link">Skills</p></button> 
+               <button onclick="displaySkills(2)"><p class="link">Education</p></button>
+             </div>
+             <div class="skills" id="skills">
+                <p>HTML</p>
+                <div class="skills_range">
+                    <div class="range1 action1"></div>
+                </div>
+
+                <p>CSS</p>
+                <div class="skills_range">
+                    <div class="range2"></div>
+                </div>
+
+                <p>JS</p>
+                <div class="skills_range">
+                    <div class="range3"></div>
+                </div>
+                <p>C</p>
+                <div class="skills_range">
+                    <div class="range4"></div>
+                </div>
+                <p>JAVA</p>
+                <div class="skills_range">
+                    <div class="range5"></div>
+                </div>
+
+             </div>
+             <div class="education" id="education">
+                <h3>2022-.....</h3>
+                <p>Currently pursuing btech</p>
+                <h3>2020-2022</h3>
+                <p>Intermediate</p>
+                <h3>2020</h3>
+                <p>10th class</p>
+             </div>
+        </div>
+    </div>
+
+
+    <div class="project_frame">
+        <h1 style="text-align: center;">Clones</h1>
+        <div class="frame">
+            <div class="Nframe">
+                <div class="netflix">
+                    <img src="netflix_PNG10.png" width="200px" height="150px">
+                    <div class="bb"><p>This taken 1month to build its frontend </p></div>
+                </div>
+            </div>
+        </div>
+
+        <h1 style="text-align: center;">Projects</h1>
+
+        <div  class="frame">
+            <div class="Nframe">
+                <a href="https://hacknothing.github.io/calculator-project/project.html" target="_blank">
+                    <div class="netflix">
+                        <!-- <img src="netflix_PNG10.png" width="200px" height="150px"> -->
+                        Calcultor
+                    </div>
+                </a>
+            </div>
+            <div class="netflix">
+                random password generator<!-- <img src="netflix_PNG10.png" width="200px" height="150px"> -->
+            </div>
+        </div> 
+    </div>
 </body>
 </html>
