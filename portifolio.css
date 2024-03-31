@@ -184,6 +184,7 @@ button:hover {
    display: flex;
    justify-content: center;
    margin-bottom: 150px;
+   overflow-x: auto;
 }
 
 .skill {
