@@ -9,14 +9,14 @@
     <script src="portifolio.js"></script>
 </head>
 <body>
-   <div class="header">
+   <div class="header" id="header">
     <div id="menu">
       <button onclick="dsp()"><i class="fa-solid fa-bars" id="enti" ></i></button>  
     </div>
     <div class="navmenu" id="navmenu">
-        <a href="" class="links"><i class="fa-solid fa-house"><span>Home</span></i> </a>
-                <a href=""><i class="fa-regular fa-address-card"><span>About</span></i></a>
-                <a href=""><i class="fa-solid fa-diagram-project"><span>Projects</span></i></a>
+        <a href=".header" class="links"><i class="fa-solid fa-house"><span>Home</span></i> </a>
+                <a href=".about"><i class="fa-regular fa-address-card"><span>About</span></i></a>
+                <a href=".project_frame"><i class="fa-solid fa-diagram-project"><span>Projects</span></i></a>
                 <a href=""><i class="fa-regular fa-address-book"><span>Contact</span></i></a>
     </div>
     <img src="portfolio.png" width="300px" height="100px">
@@ -24,9 +24,9 @@
     <div class="main">
         <nav>
             <div class="navbar">
-                <a href="" class="links"><i class="fa-solid fa-house"><span>Home</span></i> </a>
-                <a href=""><i class="fa-regular fa-address-card"><span>About</span></i></a>
-                <a href=""><i class="fa-solid fa-diagram-project"><span>Projects</span></i></a>
+                <a href="#header" class="links"><i class="fa-solid fa-house"><span>Home</span></i> </a>
+                <a href="#about"><i class="fa-regular fa-address-card" ><span>About</span></i></a>
+                <a href="#project_frame"><i class="fa-solid fa-diagram-project"><span>Projects</span></i></a>
                 <a href=""><i class="fa-regular fa-address-book"><span>Contact</span></i></a>
             </div>
 
@@ -34,7 +34,7 @@
         <div class="container">
 
            
-                <div class="myinfo">
+                <div class="myinfo" id="myinfo">
                     <div class="matter">
                        <button>I</button>
                        <button>a</button>
@@ -89,7 +89,7 @@
 
 
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="image2">
 
         </div>
@@ -138,7 +138,7 @@
     </div>
 
 
-    <div class="project_frame">
+    <div class="project_frame" id="project_frame">
         <h1 style="text-align: center;">Clones</h1>
         <div class="frame">
             <div class="Nframe">
@@ -160,8 +160,13 @@
                     </div>
                 </a>
             </div>
-            <div class="netflix">
-                random password generator<!-- <img src="netflix_PNG10.png" width="200px" height="150px"> -->
+
+            <div class="Nframe">
+                <a href="https://hacknothing.github.io/randomPassword/pass.html" target="_blank">
+                    <div class="netflix">
+                        random password generator<!-- <img src="netflix_PNG10.png" width="200px" height="150px"> -->
+                    </div>
+                </a>
             </div>
         </div> 
     </div>
